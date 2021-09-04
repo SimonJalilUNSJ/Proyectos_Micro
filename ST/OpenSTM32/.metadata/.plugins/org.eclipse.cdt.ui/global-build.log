@@ -1,0 +1,386 @@
+13:28:53 **** Clean-only build of configuration Debug for project TIME_BASE_100ms_IT ****
+make -j4 clean 
+rm -rf *
+ 
+13:29:40 **** Clean-only build of configuration Debug for project TIME_BASE_10micro ****
+make -j4 clean 
+rm -rf *
+ 
+13:29:41 **** Build of configuration Debug for project TIME_BASE_10micro ****
+make -j4 all 
+Building file: ../startup/startup_stm32f410rx.s
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "startup/startup_stm32f410rx.o" "../startup/startup_stm32f410rx.s"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+Finished building: ../startup/startup_stm32f410rx.s
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+ 
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+ 
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+ 
+Building file: ../Core/Src/it.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/it.d" -MT"Core/Src/it.o" -o "Core/Src/it.o" "../Core/Src/it.c"
+Finished building: ../Core/Src/it.c
+ 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+ 
+Building file: ../Core/Src/msp.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/msp.d" -MT"Core/Src/msp.o" -o "Core/Src/msp.o" "../Core/Src/msp.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+ 
+Building file: ../Core/Src/syscalls.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" -o "Core/Src/syscalls.o" "../Core/Src/syscalls.c"
+Finished building: ../Core/Src/main.c
+ 
+Building file: ../Core/Src/system_stm32f4xx.c
+Invoking: MCU GCC Compiler
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+ 
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Debug
+Finished building: ../Core/Src/syscalls.c
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" -o "Core/Src/system_stm32f4xx.o" "../Core/Src/system_stm32f4xx.c"
+Finished building: ../Core/Src/msp.c
+ 
+Finished building: ../Core/Src/system_stm32f4xx.c
+ 
+Building target: TIME_BASE_10micro.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F410RBTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "TIME_BASE_10micro.elf" @"objects.list"   -lm
+Finished building target: TIME_BASE_10micro.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "TIME_BASE_10micro.elf" "TIME_BASE_10micro.hex"
+arm-none-eabi-size "TIME_BASE_10micro.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5168	     20	   1644	   6832	   1ab0	TIME_BASE_10micro.elf
+ 
+13:31:11 **** Incremental Build of configuration Debug for project TIME_BASE_10micro ****
+make -j4 all 
+make: No se hace nada para 'all'.
+13:31:21 **** Programming project TIME_BASE_10micro on chip ****
+/home/simon/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.23.0.201904120827/tools/openocd/bin/openocd -f stm32.flash.99118440601331099.cfg -s /home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_10micro -s /home/simon/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.5.0.201904120827/resources/openocd/st_scripts -c "program Debug/TIME_BASE_10micro.elf verify reset " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:33)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v38 API v2 M27 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 3.222004
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F410RBTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080002ac msp: 0x20008000
+configuring PLL
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10006458
+Info : flash size = 128kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000046 msp: 0x20008000
+wrote 16384 bytes from file Debug/TIME_BASE_10micro.elf in 0.554396s (28.860 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20008000
+verified 5188 bytes in 0.102995s (49.191 KiB/s)
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+13:31:59 **** Build of configuration Debug for project TIME_BASE_100ms_IT ****
+make -j4 all 
+Building file: ../startup/startup_stm32f410rx.s
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "startup/startup_stm32f410rx.o" "../startup/startup_stm32f410rx.s"
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+Finished building: ../startup/startup_stm32f410rx.s
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+ 
+ 
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+Building file: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+ 
+Building file: ../Core/Src/it.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/it.d" -MT"Core/Src/it.o" -o "Core/Src/it.o" "../Core/Src/it.c"
+Finished building: ../Core/Src/it.c
+ 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+ 
+Building file: ../Core/Src/msp.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/msp.d" -MT"Core/Src/msp.o" -o "Core/Src/msp.o" "../Core/Src/msp.c"
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+ 
+Building file: ../Core/Src/syscalls.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" -o "Core/Src/syscalls.o" "../Core/Src/syscalls.c"
+Finished building: ../Core/Src/main.c
+Finished building: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+ 
+Building file: ../Core/Src/system_stm32f4xx.c
+Invoking: MCU GCC Compiler
+/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F410Rx -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Core/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" -o "Core/Src/system_stm32f4xx.o" "../Core/Src/system_stm32f4xx.c"
+ 
+Finished building: ../Core/Src/msp.c
+ 
+Finished building: ../Core/Src/syscalls.c
+ 
+Finished building: ../Core/Src/system_stm32f4xx.c
+ 
+Building target: TIME_BASE_100ms_IT.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F410RBTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "TIME_BASE_100ms_IT.elf" @"objects.list"   -lm
+Finished building target: TIME_BASE_100ms_IT.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "TIME_BASE_100ms_IT.elf" "TIME_BASE_100ms_IT.hex"
+arm-none-eabi-size "TIME_BASE_100ms_IT.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2488	     20	   1644	   4152	   1038	TIME_BASE_100ms_IT.elf
+ 
+13:32:10 **** Incremental Build of configuration Debug for project TIME_BASE_100ms_IT ****
+make -j4 all 
+make: No se hace nada para 'all'.
+13:32:18 **** Programming project TIME_BASE_100ms_IT on chip ****
+/home/simon/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.openocd.linux64_1.23.0.201904120827/tools/openocd/bin/openocd -f stm32.flash.2022161943722433727.cfg -s /home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/OpenSTM32/TIME_BASE_100ms_IT -s /home/simon/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.debug_2.5.0.201904120827/resources/openocd/st_scripts -c "program Debug/TIME_BASE_100ms_IT.elf verify reset " -c shutdown 
+Open On-Chip Debugger 0.10.0+dev-00021-g524e8c8 (2019-04-12-08:33)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2.1 JTAG v38 API v2 M27 VID 0x0483 PID 0x374B
+Info : using stlink api v2
+Info : Target voltage: 3.223576
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F410RBTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800135c msp: 0x20008000
+configuring PLL
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+adapter speed: 4000 kHz
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10006458
+Info : flash size = 128kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000046 msp: 0x20008000
+wrote 16384 bytes from file Debug/TIME_BASE_100ms_IT.elf in 0.542145s (29.512 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x20008000
+verified 2508 bytes in 0.074715s (32.781 KiB/s)
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
