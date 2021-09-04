@@ -1,0 +1,184 @@
+!SESSION 2021-09-04 13:48:06.175 -----------------------------------------------
+eclipse.buildId=Version 1.6.0
+java.version=11.0.9.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-09-04 13:48:28.264
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-09-04 13:48:28.342
+!MESSAGE Log4j initialized with config file /home/simon/Documentos/FACULTAD_linux/Github/Proyectos_Micro/ST/STM32CubeIDE/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-09-04 13:48:33.563
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-09-04 13:48:33.859
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:50:52.846
+!MESSAGE Indexed '001HelloWorld' (3 sources, 0 headers) in 0,839 sec: 69 declarations; 44 references; 12 unresolved inclusions; 0 syntax errors; 36 unresolved names (24 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:04.449
+!MESSAGE Indexed 'blinky' (22 sources, 99 headers) in 11,3 sec: 7.940 declarations; 29.164 references; 6 unresolved inclusions; 303 syntax errors; 1.014 unresolved names (2,7 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:09.579
+!MESSAGE Indexed '002SizeOf' (3 sources, 55 headers) in 0,432 sec: 2.114 declarations; 2.957 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:10.299
+!MESSAGE Indexed 'USART3_int_pend' (3 sources, 55 headers) in 0,702 sec: 2.116 declarations; 2.954 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:11.224
+!MESSAGE Indexed 'access_levels' (3 sources, 55 headers) in 0,892 sec: 2.120 declarations; 2.957 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:13.540
+!MESSAGE Indexed 'PeriClockEnable' (3 sources, 53 headers) in 0,926 sec: 1.966 declarations; 2.822 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:14.919
+!MESSAGE Indexed 'led_on' (3 sources, 53 headers) in 0,486 sec: 1.967 declarations; 2.820 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:16.221
+!MESSAGE Indexed 'stm32f410rb_drivers' (10 sources, 8 headers) in 0,307 sec: 858 declarations; 3.087 references; 14 unresolved inclusions; 0 syntax errors; 512 unresolved names (11 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:18.851
+!MESSAGE Indexed 'interrupt_priority' (3 sources, 0 headers) in 0,02 sec: 80 declarations; 61 references; 12 unresolved inclusions; 0 syntax errors; 42 unresolved names (23 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:26.376
+!MESSAGE Indexed 'Clock' (22 sources, 100 headers) in 6,51 sec: 7.946 declarations; 30.405 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0,38 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:26.660
+!MESSAGE Indexed 'fault_gen' (3 sources, 55 headers) in 0,224 sec: 2.128 declarations; 2.983 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:26.965
+!MESSAGE Indexed 'pin_read' (3 sources, 0 headers) in 0,018 sec: 73 declarations; 47 references; 11 unresolved inclusions; 0 syntax errors; 43 unresolved names (26 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:27.008
+!MESSAGE Indexed 'svc_operation' (3 sources, 0 headers) in 0,016 sec: 95 declarations; 84 references; 12 unresolved inclusions; 0 syntax errors; 54 unresolved names (23 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:29.233
+!MESSAGE Indexed 'Keypad' (3 sources, 0 headers) in 0,085 sec: 75 declarations; 116 references; 12 unresolved inclusions; 0 syntax errors; 42 unresolved names (18 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:31.671
+!MESSAGE Indexed '01HelloWorld' (3 sources, 55 headers) in 2,38 sec: 2.114 declarations; 2.955 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:41.565
+!MESSAGE Indexed 'svc_number' (3 sources, 55 headers) in 0,338 sec: 2.119 declarations; 2.961 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:41.948
+!MESSAGE Indexed 'LED_toggle' (3 sources, 53 headers) in 0,371 sec: 1.969 declarations; 2.827 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:42.137
+!MESSAGE Indexed 'inline_1' (3 sources, 53 headers) in 0,182 sec: 1.968 declarations; 2.810 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:42.339
+!MESSAGE Indexed 'operation_mode' (3 sources, 55 headers) in 0,198 sec: 2.117 declarations; 2.954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:42.567
+!MESSAGE Indexed '00TestProject' (3 sources, 53 headers) in 0,22 sec: 1.964 declarations; 2.809 references; 0 unresolved inclusions; 2 syntax errors; 3 unresolved names (0,063 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:42.848
+!MESSAGE Indexed 'led_toggle_bitfields' (3 sources, 54 headers) in 0,277 sec: 2.020 declarations; 2.876 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,041 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:43.039
+!MESSAGE Indexed 'task_scheduler' (3 sources, 56 headers) in 0,187 sec: 2.207 declarations; 3.165 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0,037 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:43.239
+!MESSAGE Indexed 'bit_banding' (3 sources, 53 headers) in 0,191 sec: 1.966 declarations; 2.820 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:43.495
+!MESSAGE Indexed 'stack' (3 sources, 55 headers) in 0,251 sec: 2.123 declarations; 2.950 references; 0 unresolved inclusions; 3 syntax errors; 2 unresolved names (0,039 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:43.754
+!MESSAGE Indexed 'HSI_Measurement' (3 sources, 53 headers) in 0,252 sec: 1.968 declarations; 2.831 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-04 13:51:43.985
+!MESSAGE Indexed 'HSE_Measurement' (3 sources, 53 headers) in 0,223 sec: 1.969 declarations; 2.839 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,042 %)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:51:55.368
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:15.148
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:19.344
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:27.514
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:29.172
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:33.201
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:34.586
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:35.989
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:37.418
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:39.097
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2021-09-04 13:52:40.377
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:900)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
+	at java.base/java.lang.Thread.run(Unknown Source)
